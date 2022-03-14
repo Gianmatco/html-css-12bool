@@ -1,0 +1,47 @@
+.box, .box-nested, .box-large{
+    min-width: 50px;
+    background-color: blue;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 15px;
+
+}
+.box-nested{
+    background-color: greenyellow;
+    border-color: blue;
+}
+.box-large{
+    height: 100px;
+
+}
+section{
+    margin-bottom: 15px;
+}
+.xs-middle{
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    margin: auto 0;
+}
+.xs-and{
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.xs-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.space-around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.space-between{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+
+}
+
